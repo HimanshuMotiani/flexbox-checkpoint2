@@ -1,0 +1,469 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+body{
+    line-height: 1.5;
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    max-width: 1360px;
+    padding: 0 32px;
+    margin: 0 auto;
+}
+.official-sites{
+    padding-top: 20px;
+    text-align: center;
+}
+.official-sites a{
+    border-radius: 50%;
+    background-color:white;
+    padding: 10px;
+    margin-right:7px ;
+    color: #444444;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.header{
+    position: fixed;
+    width: 100%;
+}
+.brand img{
+    vertical-align: middle;
+}
+.brand span{
+    margin-left: 30px;
+    text-transform: uppercase;
+    color: #ea523e;
+    font-size: 35px;
+    vertical-align: middle;
+    font-weight: 700;
+}
+.brand{
+    text-decoration: none;
+}
+.nav a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #444444;
+    text-transform: uppercase;
+    margin-right:25px;
+}
+.header-bar{
+    margin-top: 60px;
+    background-color: white;
+    border: 1px solid whitesmoke;;
+}
+.web-heading{
+    text-align: center;
+    text-transform:uppercase ;
+    padding-top: 250px;
+}
+.web-heading h1{
+    font-size: 42px;
+    font-weight: 700;
+    color: white;
+}
+.web-heading h4{
+    font-size: 20px;
+    margin: 20px 0;
+    color: white;
+    
+}
+.web-heading .btn{
+    font-size: 16px;
+    background-color: #ea513e;
+    padding: 18px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    box-shadow: none;
+    color: white;
+    border: 0;
+}
+.web-heading .hr-short{
+    width: 30%;
+}
+.hero{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./media/banner.jpeg);
+    background-size: 100% 100%;
+    height: 80vh;
+}
+.circle-align{
+    margin-top: 20px;
+    text-align: center;
+}
+.circle-align .circle{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #7f7f7f;
+    display: inline-block;
+}
+.circle-align .color-change{
+    background-color: black;
+}
+.common-heading{
+    margin-top: 130px;
+    text-align: center;
+    color: #444444;
+}
+.common-heading h3{
+    font-size: 28px;
+    text-decoration: underline;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.common-heading h4{
+    font-size: 20px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    color: #4a4a4a;
+    font-weight: 300;
+}
+
+.outer{
+    flex:0 1 23%;
+    height: 300px;
+    width: 100px;
+    margin-top:60px ;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.inner{
+    font-size: 50px;
+    color: white;
+}
+.col-1-1{
+    background-color: #5cbd9d;
+}
+.col-1-2{
+    background-color: #e67f38;
+}
+.col-1-3{
+    background-color: #3998db;
+}
+.col-1-4{
+    background-color: #68cd73;
+}
+.col{
+    flex:0 1 23%;
+    margin-top:60px;
+    margin-right: 20px;
+    
+}
+.col img{  
+width: 100%;
+-o-object-fit: cover;
+object-fit: cover;
+}
+.flex-img{
+display: flex;
+flex-wrap: wrap;
+}
+.col img{  
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+.col .circle-img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.common-heading h5{
+font-size: 24px;
+font-weight: 300;
+font-style:italic;
+color: #5e5e5e;
+}
+.common-heading h6{
+    font-size: 16px;
+    font-style:italic;
+    font-weight: 300;
+    color: #bcbcbc;
+}
+.content{
+    margin-top: 40px;
+}
+.col-para{
+    flex: 0 1 62%;
+    margin-right: 60px;
+}
+.col-graph{
+    flex: 0 1 33%;
+}
+.col-para p{
+    color: #666666;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: left;
+
+}
+.scale{
+    width:100%;
+    height: 35px;
+    background-color: #e7e7e7;
+    font-size: 16px;
+    color: white;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    text-align: left;
+
+}
+.col-graph .bar0{
+    width:90%;
+    height: 35px;
+    background-color: #ea513e;    
+}
+.col-graph .bar1{
+    width:80%;
+    height: 35px;
+    background-color: #ea513e;
+}
+.col-graph .bar2{
+    width:70%;
+    height: 35px;
+    background-color: #ea513e;
+}
+.col-graph .bar3{
+    width:80%;
+    height: 35px;
+    background-color: #ea513e;
+}
+.job-types{
+    padding: 5px;
+    padding-left: 10px;
+}
+.map{
+    margin: 30px 0;
+    text-align: center;
+
+    width: 100%;
+
+}
+.col-contact-para{
+    flex: 0 1 60%;
+    margin-right: 60px;   
+}
+.col-contact-para p{
+    color: #6b6b6b;
+    font-size: 14px;
+    text-align: left;
+}
+address{
+    margin-top: 20px;
+    text-align: left;
+}
+.color-red{
+    color: red;
+} 
+.color-blue{
+    color: #1f70d0;
+}
+.color-green{
+    color: #55a128;
+}
+.bold{
+    font-weight: 600;
+}
+
+.col-contact-details{
+    flex: 0 1 33%;
+    margin-bottom:10px;
+
+}
+.col-contact-details .details{
+    width:100%;
+    height: 35px;
+    font-size: 14px;
+    border: 1px solid #d5d5d5;
+    margin-bottom: 10px;
+    text-align: left;
+    padding: 5px;
+    padding-left: 10px;
+}
+.col-contact-details .details-message{
+    height: 150px;
+
+}
+.btn-message{
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    text-transform: uppercase;
+    background-color: red;
+    color: white;
+    padding: 7px;
+    border: 0;
+}
+footer{
+margin-top: 150px;
+margin-bottom: 10px;
+}
+footer small{
+    color: #666666;
+    font-size: 16px;
+}
+.top-btn{
+    text-align: center;
+    font-size: 16px;
+    text-transform: uppercase;
+    background-color: red;
+    color: white;
+    padding: 20px;
+    border: 0;
+}
+
+.qqq{
+    position: relative;
+}
+
+/* Gallery-page */
+.aside{
+    background-color: #ea513e;
+    padding: 20px;
+    flex: 0 1 30%;
+    margin-right: 20px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25%;
+}
+.aside .gallery-brand{
+text-decoration: none;
+}
+.gallery-brand img{
+    width: 60px;
+    height: 60px;
+    vertical-align: middle;
+
+}
+.gallery-brand .aside-heading{
+    margin-left: 20px;
+    text-transform: uppercase;
+    color:white;
+    font-size: 24px;
+    vertical-align: middle;
+    font-weight: 600;
+}
+.home-btn{
+    font-size: 12px;
+    padding: 5px;
+    border: 1px solid white;
+    text-decoration: none;
+    color: white;
+    margin-left: 100px ;
+}
+.personal-info{
+    color: #fcefed;
+    font-weight: 700;
+    font-size: 20px;
+
+}
+.para-text{
+    color: #392a27;
+    font-size: 14px;
+    margin: 15px 0;
+}
+
+.official-sites .links{
+    border-radius: 50%;
+    margin-right:15px ;
+    border: 1px solid white;
+    color: white;
+    background-color: #ea513e;
+
+
+}
+/* .test1{
+    margin-top: 550px;
+} */
+.gallery{
+    flex: 0 1 65%;
+    margin-left: 400px;
+}
+.gallery-heading{
+    font-size: 42px;
+    color: #272727;
+    text-align: center;
+    margin: 10px 0;
+    font-weight: 700;
+}
+
+.container1{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.column-gallery img{
+    width: 100%;
+    margin: 5px 0;
+    border: 2px solid black;
+
+}
+.column-gallery{
+    flex: 0 1 47%;
+    align-self: flex-start;
+}
+
+
+
+
+
